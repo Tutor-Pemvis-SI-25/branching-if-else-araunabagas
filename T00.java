@@ -33,8 +33,8 @@ public class T00 {
             c = a + b;
             System.out.println("Hasil penjumlahan: " + c);
         } else {
-            if (b + 1 % 2 == 0 && a % 2 == 0) {
-                d = a * b;
+            if (a % 2 != 0 && b % 2 != 0) {
+                c = a * b;
                 System.out.println("Hasil perkalian: " + c);
             } else {
                 System.out.println("Berbeda jenis");
